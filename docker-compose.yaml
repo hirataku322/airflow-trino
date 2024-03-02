@@ -1,0 +1,6 @@
+services:
+  app:
+    image: trinodb/trino
+    container_name: trino
+    ports:
+      - "8081:8080"
